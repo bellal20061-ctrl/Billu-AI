@@ -5,7 +5,8 @@
   status = 200
 
 [build]
-  publish = "."
+  publish = "dist"
+  command = "npm run build"
 
 [header]
   for = "/*"
@@ -14,4 +15,4 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Cache-Control = "public, max-age=0, must-re 
+    Cache-Control = "public, max-age=0, must-revalidate"
