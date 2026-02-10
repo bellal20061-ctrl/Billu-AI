@@ -1,5 +1,10 @@
 {
   "name": "Mr.Billu - Premium AI Chat",
-  "description": "A high-end conversational interface featuring Mr.Billu, your friendly AI companion. Minimalist, modern, and powerful.",
+  "short_name": "Mr.Billu",
+  "description": "A bilingual (Bangla & English) AI companion powered by Gemini, created by Developer Bellal Hasan.",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4F46E5",
+  "background_color": "#0d0d0d",
   "requestFramePermissions": []
 }
